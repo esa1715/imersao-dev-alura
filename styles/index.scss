@@ -1,0 +1,55 @@
+$bg: #12242f;
+$primary: #02d09b;
+$secondary: #ffffff;
+
+body {
+    background: url('/assets/bgdesk.jpg') no-repeat center center/cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $bg;
+    min-width: 33%;
+    border-radius: 12px;
+}
+
+    .aulas__container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 2.5%;
+        max-width: 90vh;
+    }
+
+        h1 {
+            align-self: center;
+            color: $primary;
+        }
+
+            details {
+                width: 100%;
+                border: 3px solid #193445;
+                padding: 2.5%;
+            }
+                    details summary {
+                        width: 100%;
+                        color: $secondary;
+                    }
+
+                                    a {
+                                        color: $primary;
+                                        text-decoration: underline;
+                                    }
+
+@media screen and (max-width: 450px) {
+    main {
+        width: 90%;
+    }
+}
