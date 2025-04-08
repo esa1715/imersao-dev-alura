@@ -4,6 +4,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-attachment: fixed;
 }
 
 main {
@@ -21,7 +22,6 @@ main {
   display: flex;
   flex-direction: column;
   padding: 2.5%;
-  max-width: 90vh;
 }
 
 h1 {
