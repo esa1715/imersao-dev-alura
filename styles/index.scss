@@ -38,17 +38,18 @@ main {
                 border: 3px solid #193445;
                 padding: 2.5%;
             }
-                    details summary {
-                        width: 100%;
-                        color: $secondary;
+                
+                details summary {
+                    width: 100%;
+                    color: $secondary;
+                }
+
+                    a {
+                        color: $primary;
+                        text-decoration: underline;
                     }
 
-                                    a {
-                                        color: $primary;
-                                        text-decoration: underline;
-                                    }
-
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 768px) {
     main {
         width: 90%;
     }
